@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Telar Indígena Interactivo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/loom.css">
+</head>
+<body>
+    <h1>Telar Interactivo</h1>
+    <p>Explora y crea patrones inspirados en los telares indígenas latinoamericanos.</p>
+    <canvas id="telarCanvas" width="700" height="400"></canvas>
+    <div class="controls">
+        <label>Color de hilo:
+            <input type="color" id="colorPicker" value="#d7263d">
+        </label>
+        <label>Agregar hilo:
+            <button id="addThreadBtn">+</button>
+            <button id="removeThreadBtn">-</button>
+        </label>
+        <label>Patrón:
+            <select id="patternSelect">
+                <option value="rayas">Rayas</option>
+                <option value="zigzag">Zigzag</option>
+                <option value="diamantes">Diamantes</option>
+            </select>
+        </label>
+        <button id="resetBtn">Reiniciar</button>
+    </div>
+    <script src="js/loom.js"></script>
+</body>
+</html>
