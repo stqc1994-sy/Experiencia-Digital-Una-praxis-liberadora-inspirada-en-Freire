@@ -1,0 +1,27 @@
+{
+  "name": "experiencia-digital-una-praxis-liberadora-inspirada-en-freire",
+  "version": "1.0.0",
+  "description": "Se explora la dimensión óntica de la praxis en el Ciber-Tiempo, proponiendo una fundamentación teórica y práctica desde la fusión del pensamiento Freireano y Decolonial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stqc1994-sy/Experiencia-Digital-Una-praxis-liberadora-inspirada-en-Freire.git"
+  },
+  "keywords": [
+    "depseek",
+    "ia"
+  ],
+  "author": "Linda Quintero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stqc1994-sy/Experiencia-Digital-Una-praxis-liberadora-inspirada-en-Freire/issues"
+  },
+  "homepage": "https://github.com/stqc1994-sy/Experiencia-Digital-Una-praxis-liberadora-inspirada-en-Freire#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "openai": "^6.3.0"
+  }
+}
